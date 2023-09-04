@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background-color: #add2dc;
+    font-family: 'Courier New';
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #add2dc;
+    
+}
+
+h1{
+    font-weight: bolder;
+    color:#103b56 ;
+}
+
+.espacador{
+    flex: 1;
+   }
+
+.imagemFloripa{
+    border-radius: 4px;
+    border: 3px solid #103b56;
+    width: 270px;
+    height: 443px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#voltar{
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}

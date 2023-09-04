@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    background-color: #add2dc;
+    font-family: 'Courier New';
+}
+
+header{ 
+    display: flex;
+    flex-direction: row;   
+    background-color: #add2dc;
+    font-size: 15px;
+    color:#103b56 ;
+    margin-bottom: 70px;
+}
+
+h1{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+    
+.espacador{
+    flex: 1;
+}
+
+#voltar{
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.textoBoi{
+    border-radius: 4px;
+    border: 3px solid #103b56;
+    width: 600px;
+    height: 750px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: #103b56;
+    margin-top: 100px;
+    color: #FFF;
+}

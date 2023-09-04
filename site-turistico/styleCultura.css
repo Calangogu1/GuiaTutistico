@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-color: #add2dc;
+    font-family: 'Courier New';
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: #103b56;
+}
+
+.espacador{
+    flex: 1;
+}
+
+.mae{
+    display: flex;
+    flex-direction: row;
+}
+
+.boiMamao{
+    border-radius: 4px;
+    border: 3px solid #103b56;
+    width: 250px;
+    background-color:#FFFF ;
+}
+
+.pauFita{
+    border-radius: 4px;
+    border: 3px solid #103b56;
+    background-color: #FFFF;
+}
+
+.espacador{
+    flex: 1;
+}
+
+
+
+#botaoImg{
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#botaoImgDois{
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#voltar{
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}

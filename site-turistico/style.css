@@ -1,6 +1,9 @@
 body{
 margin: 0px;
 font-family: 'Courier New';
+display: flex;
+flex-direction:column ;
+height: 100vh;
 }
 
 header{
@@ -37,10 +40,15 @@ header{
     box-shadow: 0px 0px 3px #000;
 }
 
+.containerMae{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .linhaPrincipal{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
